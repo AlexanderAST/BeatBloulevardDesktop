@@ -1,0 +1,19 @@
+﻿<Window x:Class="BeatBloulevardDesktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeatBloulevardDesktop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resetpassword.png"/>
+        </Grid.Background>
+
+
+        <Frame x:Name="_frame" Content="Frame" Source="AuthPage.xaml" HorizontalAlignment="Center" VerticalAlignment="Center" NavigationUIVisibility="Hidden" Height="1080" Width="1920"/>
+    </Grid>
+</Window>
