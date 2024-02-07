@@ -16,7 +16,8 @@
             <TextBox x:Name="_login" FontSize="30" Canvas.Left="197" TextWrapping="Wrap" Canvas.Top="204" Width="690" Height="54" HorizontalAlignment="Left" VerticalAlignment="Top"/>
             <PasswordBox x:Name="_password" Canvas.Left="197"  FontSize="30" Canvas.Top="344" Width="690" HorizontalAlignment="Left" VerticalAlignment="Center" Height="54"/>
             <Button Content="Вход" FontSize="20" Canvas.Left="197" Canvas.Top="528" Height="54" Width="690" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click"/>
-            <Button Content="Регистрация" FontSize="20" Canvas.Left="197" Canvas.Top="614" Height="54" Width="690" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button Content="Регистрация" FontSize="20" Canvas.Left="197" Canvas.Top="614" Height="54" Width="690" HorizontalAlignment="Center" VerticalAlignment="Top" Click="Button_Click_1"/>
+            <TextBlock Canvas.Left="380" TextWrapping="Wrap" Text="Авторизация" Height="84" Width="324" FontSize="50" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         </Canvas>
         <TextBlock FontSize="30" HorizontalAlignment="Left" Margin="619,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="44" Width="184" Foreground="White"><Run Language="ru-ru" Text="Логин"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
         <TextBlock FontSize="30" HorizontalAlignment="Left" Margin="619,460,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="184" Foreground="White"><Run Language="ru-ru" Text="Пароль"/><LineBreak/><Run Language="ru-ru"/></TextBlock>
