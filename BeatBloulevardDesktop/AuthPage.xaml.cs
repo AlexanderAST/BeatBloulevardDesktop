@@ -34,7 +34,9 @@ namespace BeatBloulevardDesktop
 
         }
 
-        private async void Button_Click(object sender, RoutedEventArgs e)
+           
+
+    private async void Button_Click(object sender, RoutedEventArgs e)
         {
             var client = new HttpClient();
             var postData = new
@@ -51,7 +53,12 @@ namespace BeatBloulevardDesktop
             {
                 MessageBox.Show("Вы авторизованы");
                 NavigationService.Navigate(new MainPage());
-                    
+                var responce1 = await client.GetAsync("http://localhost:8081/private/whoami");
+                if (responce1.IsSuccessStatusCode)
+                {
+                    responce1.Content.ReadAsStringAsync().Wait();
+                }
+
             }
             else
             {

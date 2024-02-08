@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +24,20 @@ namespace BeatBloulevardDesktop
         public MainPage()
         {
             InitializeComponent();
+         
+        }
+
+        public async void GetProf()
+        {
+            var client = new HttpClient();
+
+
+            var responce = await client.GetAsync("http://localhost:8081/private/whoami");
+
+            if (responce.IsSuccessStatusCode)
+            {
+                responce.Content.ReadAsStringAsync().Wait();
+            }
         }
     }
 }
