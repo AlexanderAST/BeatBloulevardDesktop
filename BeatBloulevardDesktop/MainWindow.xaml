@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeatBloulevardDesktop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1080" Width="1920">
+        Title="MainWindow" Height="1080" Width="1920" WindowStartupLocation="CenterScreen">
 
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Resetpassword.png"/>
+            <ImageBrush ImageSource="Photos/Resetpassword.png"/>
         </Grid.Background>
 
 

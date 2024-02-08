@@ -127,7 +127,38 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resetpassword.png" />
+    <Resource Include="Photos\Resetpassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Photos\1 - Top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Photos\Icon - Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Photos\Shape.png" />
+    <Resource Include="Photos\Vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Photos\image 11.png" />
+    <Resource Include="Photos\image 12.png" />
+    <Resource Include="Photos\image 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Photos\Pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Photos\Go Back.png" />
+    <Resource Include="Photos\Shuffle.png" />
+    <Resource Include="Photos\Shuffle1.png" />
+    <Resource Include="Photos\Skip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Photos\Paus1e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Photos\Vector2.png" />
+    <Resource Include="Photos\Vector3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
